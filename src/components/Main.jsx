@@ -2,7 +2,7 @@
 import PopularProductsCarousel from "./Dashboard/PopularProducts";
 import GenderDemographicsChart from "./Dashboard/GenderDemographic";
 import AgeDistributionChart from "./Dashboard/AgeDemographics";
-import MapChart from "./Dashboard2/MapChart";
+import MapChart from "./Dashboard/MapChart";
 
 const Main = () => {
   

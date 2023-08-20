@@ -4,36 +4,40 @@ import {
 } from 'recharts';
 const data = [
   {
-    name: '10-20',
+    name: '10',
     Amount: 1200,
   },
   {
-    name: '20-30',
+    name: '20',
+    Amount: 7500,
+  },
+  {
+    name: '30',
     Amount: 9800,
 
   },
   {
-    name: '30-40',
+    name: '40',
     Amount: 5500,
   
   },
   {
-    name: '40-50',
+    name: '50',
     Amount: 3908,
    
   },
   {
-    name: '50-60',
+    name: '60',
     Amount: 2000,
    
   },
   {
-    name: '60-70',
+    name: '70',
     Amount: 1800,
 
   },
   {
-    name: '70-80',
+    name: '80',
     Amount: 1500,
    
   },

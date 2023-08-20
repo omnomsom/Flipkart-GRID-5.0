@@ -8,40 +8,40 @@ const MapChart = () => {
         <DatamapsIndia
           style={{ postion: "relative", left: "25%" }}
           regionData={{
-            "Andaman & Nicobar Island": { "value": 150 },
-            "Andhra Pradesh": { "value": 470 },
-            "Arunachal Pradesh": { "value": 248 },
-            "Assam": { "value": 528 },
-            "Bihar": { "value": 755 },
-            "Chandigarh": { "value": 95 },
-            "Chhattisgarh": { "value": 1700 },
-            "Delhi": { "value": 1823 },
-            "Goa": { "value": 508 },
-            "Gujarat": { "value": 624 },
-            "Haryana": { "value": 1244 },
-            "Himachal Pradesh": { "value": 640 },
-            "Jammu & Kashmir": { "value": 566 },
-            "Jharkhand": { "value": 814 },
-            "Karnataka": { "value": 2482 },
-            "Kerala": { "value": 899 },
-            "Lakshadweep": { "value": 15 },
-            "Madhya Pradesh": { "value": 1176 },
-            "Maharashtra": { "value": 727 },
-            "Manipur": { "value": 314 },
-            "Meghalaya": { "value": 273 },
-            "Mizoram": { "value": 306 },
-            "Nagaland": { "value": 374 },
-            "Odisha": { "value": 395 },
-            "Puducherry": { "value": 245 },
-            "Punjab": { "value": 786 },
-            "Rajasthan": { "value": 1819 },
-            "Sikkim": { "value": 152 },
-            "Tamil Nadu": { "value": 2296 },
-            "Telangana": { "value": 467 },
-            "Tripura": { "value": 194 },
-            "Uttar Pradesh": { "value": 2944 },
-            "Uttarakhand": { "value": 1439 },
-            "West Bengal": { "value": 1321 }
+            "Andaman & Nicobar Island": { "value": 50 }, // Adjusted for Baby & Kids products
+            "Andhra Pradesh": { "value": 270 }, // Adjusted for Baby & Kids products
+            "Arunachal Pradesh": { "value": 98 }, // Adjusted for Baby & Kids products
+            "Assam": { "value": 208 }, // Adjusted for Baby & Kids products
+            "Bihar": { "value": 355 }, // Adjusted for Baby & Kids products
+            "Chandigarh": { "value": 80 }, // Adjusted for Baby & Kids products
+            "Chhattisgarh": { "value": 900 }, // Adjusted for Baby & Kids products
+            "Delhi": { "value": 823 }, // Adjusted for Baby & Kids products
+            "Goa": { "value": 308 }, // Adjusted for Baby & Kids products
+            "Gujarat": { "value": 324 }, // Adjusted for Baby & Kids products
+            "Haryana": { "value": 644 }, // Adjusted for Baby & Kids products
+            "Himachal Pradesh": { "value": 340 }, // Adjusted for Baby & Kids products
+            "Jammu & Kashmir": { "value": 256 }, // Adjusted for Baby & Kids products
+            "Jharkhand": { "value": 444 }, // Adjusted for Baby & Kids products
+            "Karnataka": { "value": 982 }, // Adjusted for Baby & Kids products
+            "Kerala": { "value": 399 }, // Adjusted for Baby & Kids products
+            "Lakshadweep": { "value": 10 }, // Adjusted for Baby & Kids products
+            "Madhya Pradesh": { "value": 576 }, // Adjusted for Baby & Kids products
+            "Maharashtra": { "value": 407 }, // Adjusted for Baby & Kids products
+            "Manipur": { "value": 210 }, // Adjusted for Baby & Kids products
+            "Meghalaya": { "value": 173 }, // Adjusted for Baby & Kids products
+            "Mizoram": { "value": 189 }, // Adjusted for Baby & Kids products
+            "Nagaland": { "value": 220 }, // Adjusted for Baby & Kids products
+            "Odisha": { "value": 250 }, // Adjusted for Baby & Kids products
+            "Puducherry": { "value": 180 }, // Adjusted for Baby & Kids products
+            "Punjab": { "value": 392 }, // Adjusted for Baby & Kids products
+            "Rajasthan": { "value": 900 }, // Adjusted for Baby & Kids products
+            "Sikkim": { "value": 80 }, // Adjusted for Baby & Kids products
+            "Tamil Nadu": { "value": 1125 }, // Adjusted for Baby & Kids products
+            "Telangana": { "value": 240 }, // Adjusted for Baby & Kids products
+            "Tripura": { "value": 105 }, // Adjusted for Baby & Kids products
+            "Uttar Pradesh": { "value": 1400 }, // Adjusted for Baby & Kids products
+            "Uttarakhand": { "value": 700 }, // Adjusted for Baby & Kids products
+            "West Bengal": { "value": 610 }
           }}
           
           hoverComponent={({ value }) => {
