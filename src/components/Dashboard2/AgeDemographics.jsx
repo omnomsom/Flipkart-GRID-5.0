@@ -5,37 +5,38 @@ import {
 const data = [
   {
     name: '10-20',
-    Amount: 1200,
+    pv: 2400,
+    amt: 1400,
   },
   {
     name: '20-30',
-    Amount: 9800,
-
+    pv: 1398,
+    amt: 4210,
   },
   {
     name: '30-40',
-    Amount: 5500,
-  
+    pv: 10000,
+    amt: 7290,
   },
   {
     name: '40-50',
-    Amount: 3908,
-   
+    pv: 3908,
+    amt: 2000,
   },
   {
     name: '50-60',
-    Amount: 2000,
-   
+    pv: 4800,
+    amt: 2181,
   },
   {
     name: '60-70',
-    Amount: 1800,
-
+    pv: 3800,
+    amt: 2500,
   },
   {
     name: '70-80',
-    Amount: 1500,
-   
+    pv: 4300,
+    amt: 2100,
   },
 ];
 
@@ -58,12 +59,11 @@ function AmountDistributionChart() {
         <XAxis dataKey="name" />
         <YAxis />
         <Tooltip />
-        
-        <Line type="monotone" dataKey="Amount" stroke="#F7A200" activeDot={{ r: 8 }} />
+        <Line type="monotone" dataKey="pv" stroke="#F7A200" activeDot={{ r: 8 }} />
       
       </LineChart>
     </ResponsiveContainer>
-      <p className="text-sm">Age-wise Popularity</p>
+      <p className="text-sm">Age Distribution</p>
     </div>
   );
 }

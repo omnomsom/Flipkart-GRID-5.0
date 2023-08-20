@@ -1,10 +1,10 @@
 
-import PopularProductsCarousel from "./Dashboard/PopularProducts";
-import GenderDemographicsChart from "./Dashboard/GenderDemographic";
-import AgeDistributionChart from "./Dashboard/AgeDemographics";
+import PopularProductsCarousel from "./Dashboard2/PopularProducts";
+import GenderDemographicsChart from "./Dashboard2/GenderDemographic";
+import AgeDistributionChart from "./Dashboard2/AgeDemographics";
 import MapChart from "./Dashboard2/MapChart";
 
-const Main = () => {
+const Main2 = () => {
   
   return (
     <div
@@ -30,4 +30,4 @@ const Main = () => {
   );
 };
 
-export default Main;
+export default Main2;

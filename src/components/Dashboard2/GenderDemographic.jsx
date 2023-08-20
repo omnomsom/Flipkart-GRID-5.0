@@ -3,9 +3,9 @@ import { Chart } from "react-google-charts";
 
 const data = [
   ["Task", "Hours per Day"],
-  ["Men", 8],
-  ["Women", 2],
-  ["Others", 2],
+  ["Men", 2],
+  ["Women", 7],
+  ["Others", 1],
 ];
 
 const options = {
@@ -30,7 +30,7 @@ const GenderDemographicsChart = () => {
         width={"100%"}
         height={"100%"}
       />
-       <p className="text-sm mt--5 mb-2">Gender-wise Popularity</p>
+       <p className="text-sm mt--5 mb-2">Gender Distribution</p>
     </div>
   );
 };
